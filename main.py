@@ -3,11 +3,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import CommandStart
 
 # ТОКЕНДІ ОСЫ ЖЕРГЕ ЖАЗАСЫҢ
-BOT_TOKEN = "123456:ABC-ТОКЕНІҢ_ОСЫНДА"
-
-bot = Bot(token=BOT_TOKEN)
-dp = Dispatcher()
-
+BOT_TOKEN =7672689198:AAFrsO9Qo3BUDaI_wqRWCKTClm0u9f46zFM
 @dp.message(CommandStart())
 async def start(msg: types.Message):
     text = f"""
